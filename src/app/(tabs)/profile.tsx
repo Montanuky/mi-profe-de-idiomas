@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Pressable, Switch, TextInput, View } from 'react-native';
 import { Button, Card, Chip, H1, H2, T, Screen } from '../../components/ui';
 import { courses, LANGS } from '../../content';
-import { hasNorwegianClips } from '../../lib/clips';
+import { hasClips } from '../../lib/clips';
 import { hasVoice, speak } from '../../lib/speech';
 import { useStore } from '../../state/store';
 import { useColors } from '../../theme';
@@ -81,8 +81,8 @@ export default function ProfileScreen() {
                 {courses[l].flag} {courses[l].name}
               </T>
               <T size={13} muted>
-                {l === 'no' && hasNorwegianClips()
-                  ? 'Voz noruega real incluida en la app: no necesitas instalar nada.'
+                {hasClips(courses[l].speechLang)
+                  ? `Voz ${l === 'en' ? 'británica' : 'noruega'} real incluida en la app: no necesitas instalar nada.`
                   : voices[l] === false
                   ? 'No se ha encontrado voz instalada. Instálala en los ajustes del teléfono (Texto a voz / Contenido leído).'
                   : voices[l]

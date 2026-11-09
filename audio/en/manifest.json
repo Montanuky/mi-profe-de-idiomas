@@ -1,0 +1,802 @@
+[
+ {
+  "key": "181cb20e",
+  "text": "Hello! Nice to meet you."
+ },
+ {
+  "key": "4f9f2cab",
+  "text": "hello"
+ },
+ {
+  "key": "9d629f1c",
+  "text": "Hello, Anna!"
+ },
+ {
+  "key": "f17ab010",
+  "text": "good morning"
+ },
+ {
+  "key": "31652572",
+  "text": "Good morning, Tom."
+ },
+ {
+  "key": "02e9cfcc",
+  "text": "good afternoon"
+ },
+ {
+  "key": "8ad033d4",
+  "text": "good evening"
+ },
+ {
+  "key": "46d72f50",
+  "text": "goodbye"
+ },
+ {
+  "key": "2535db85",
+  "text": "see you later"
+ },
+ {
+  "key": "3c694558",
+  "text": "thank you"
+ },
+ {
+  "key": "4dd58d63",
+  "text": "please"
+ },
+ {
+  "key": "b882bf75",
+  "text": "Thank you very much."
+ },
+ {
+  "key": "3387ff2b",
+  "text": "See you later, Anna."
+ },
+ {
+  "key": "4a5b08c3",
+  "text": "Good morning!"
+ },
+ {
+  "key": "c219dc75",
+  "text": "Good morning! How are you?"
+ },
+ {
+  "key": "5b3e8e5d",
+  "text": "Fine, thanks. And you?"
+ },
+ {
+  "key": "8f77eb14",
+  "text": "Very well, thank you."
+ },
+ {
+  "key": "47156900",
+  "text": "Good evening, sir."
+ },
+ {
+  "key": "2bd3c6b5",
+  "text": "Good night, see you tomorrow."
+ },
+ {
+  "key": "8d39bde6",
+  "text": "name"
+ },
+ {
+  "key": "e8bee3ea",
+  "text": "my name is"
+ },
+ {
+  "key": "0c8c98ae",
+  "text": "My name is Guille."
+ },
+ {
+  "key": "b3622c94",
+  "text": "what's your name?"
+ },
+ {
+  "key": "e729e4f3",
+  "text": "nice to meet you"
+ },
+ {
+  "key": "5ed67e8e",
+  "text": "I am"
+ },
+ {
+  "key": "5067f686",
+  "text": "you are"
+ },
+ {
+  "key": "4e9f3590",
+  "text": "yes"
+ },
+ {
+  "key": "62366ffa",
+  "text": "no"
+ },
+ {
+  "key": "44f1708a",
+  "text": "sorry"
+ },
+ {
+  "key": "b4e35dbd",
+  "text": "I'm from Barcelona."
+ },
+ {
+  "key": "7e8b8b48",
+  "text": "Nice to meet you, Sarah."
+ },
+ {
+  "key": "11a8bec2",
+  "text": "Hi! What's your name?"
+ },
+ {
+  "key": "b8daa36e",
+  "text": "I'm Sarah. And you?"
+ },
+ {
+  "key": "f63288e1",
+  "text": "Nice to meet you, Guille."
+ },
+ {
+  "key": "c8382298",
+  "text": "I'm Guille."
+ },
+ {
+  "key": "6161e4e1",
+  "text": "She is tired."
+ },
+ {
+  "key": "e6d1e3ee",
+  "text": "Spain"
+ },
+ {
+  "key": "a2a8f2aa",
+  "text": "England"
+ },
+ {
+  "key": "dc75eef7",
+  "text": "Norway"
+ },
+ {
+  "key": "b819825b",
+  "text": "Spanish"
+ },
+ {
+  "key": "1b9ae0bb",
+  "text": "English"
+ },
+ {
+  "key": "056c1458",
+  "text": "where"
+ },
+ {
+  "key": "95cd8075",
+  "text": "from"
+ },
+ {
+  "key": "5e8fbf7d",
+  "text": "I live in"
+ },
+ {
+  "key": "700e9b68",
+  "text": "I live in Madrid."
+ },
+ {
+  "key": "280c6c10",
+  "text": "Where are you from?"
+ },
+ {
+  "key": "f24871c1",
+  "text": "I'm from Spain."
+ },
+ {
+  "key": "2857e26d",
+  "text": "I live in London."
+ },
+ {
+  "key": "ff0dce50",
+  "text": "I'm from Spain. And you?"
+ },
+ {
+  "key": "1f83812b",
+  "text": "I'm English. I live in Oslo."
+ },
+ {
+  "key": "8552f7ae",
+  "text": "Oh, I love Norway!"
+ },
+ {
+  "key": "f0e7f450",
+  "text": "I'm Spanish and I live in Oslo."
+ },
+ {
+  "key": "521d0429",
+  "text": "family"
+ },
+ {
+  "key": "23e3d71a",
+  "text": "mother"
+ },
+ {
+  "key": "b0fee263",
+  "text": "father"
+ },
+ {
+  "key": "35bc1205",
+  "text": "brother"
+ },
+ {
+  "key": "fe691321",
+  "text": "sister"
+ },
+ {
+  "key": "e0363a7b",
+  "text": "son"
+ },
+ {
+  "key": "0ba81191",
+  "text": "daughter"
+ },
+ {
+  "key": "3044938a",
+  "text": "parents"
+ },
+ {
+  "key": "dfd78081",
+  "text": "This is my sister."
+ },
+ {
+  "key": "8d3ff5d8",
+  "text": "My parents live in Spain."
+ },
+ {
+  "key": "d53ab068",
+  "text": "His brother is tall."
+ },
+ {
+  "key": "c40e60a8",
+  "text": "Who is this?"
+ },
+ {
+  "key": "efdf81cf",
+  "text": "This is my brother. He's twenty."
+ },
+ {
+  "key": "5f664fd1",
+  "text": "And who is she?"
+ },
+ {
+  "key": "e7c32d04",
+  "text": "She's my mother."
+ },
+ {
+  "key": "d5275710",
+  "text": "This is my mother."
+ },
+ {
+  "key": "7fd92ae4",
+  "text": "Her brother lives in London."
+ },
+ {
+  "key": "ba2719ef",
+  "text": "one"
+ },
+ {
+  "key": "be248829",
+  "text": "two"
+ },
+ {
+  "key": "888603c3",
+  "text": "three"
+ },
+ {
+  "key": "2f69f5a5",
+  "text": "four"
+ },
+ {
+  "key": "aeb44395",
+  "text": "five"
+ },
+ {
+  "key": "ca3007ab",
+  "text": "six"
+ },
+ {
+  "key": "3583acfe",
+  "text": "seven"
+ },
+ {
+  "key": "d4fa8470",
+  "text": "eight"
+ },
+ {
+  "key": "16266f55",
+  "text": "nine"
+ },
+ {
+  "key": "bd01f454",
+  "text": "ten"
+ },
+ {
+  "key": "4d62bdfa",
+  "text": "How old are you?"
+ },
+ {
+  "key": "52e0efbd",
+  "text": "I have two sisters."
+ },
+ {
+  "key": "4f479d93",
+  "text": "My son is five."
+ },
+ {
+  "key": "8d21b04e",
+  "text": "How old is your daughter?"
+ },
+ {
+  "key": "074a6bad",
+  "text": "She's seven. And your son?"
+ },
+ {
+  "key": "e491040a",
+  "text": "He's nine."
+ },
+ {
+  "key": "5d8a4b82",
+  "text": "They are almost the same age!"
+ },
+ {
+  "key": "233f0d8e",
+  "text": "I'm ten years old."
+ },
+ {
+  "key": "cba09f8d",
+  "text": "friend"
+ },
+ {
+  "key": "112cdf96",
+  "text": "tall"
+ },
+ {
+  "key": "ba226bd5",
+  "text": "short"
+ },
+ {
+  "key": "58446843",
+  "text": "young"
+ },
+ {
+  "key": "bd2b9bd6",
+  "text": "old"
+ },
+ {
+  "key": "99863551",
+  "text": "happy"
+ },
+ {
+  "key": "720c3fd5",
+  "text": "tired"
+ },
+ {
+  "key": "1231a1fc",
+  "text": "nice"
+ },
+ {
+  "key": "bcec53ae",
+  "text": "My friend is very tall."
+ },
+ {
+  "key": "9f93a823",
+  "text": "I'm tired today."
+ },
+ {
+  "key": "0a0aedea",
+  "text": "She is a happy girl."
+ },
+ {
+  "key": "9159d22a",
+  "text": "Is your friend Tom nice?"
+ },
+ {
+  "key": "c8d3eaf6",
+  "text": "Yes, he is very nice."
+ },
+ {
+  "key": "f38f1ea8",
+  "text": "Is he tall?"
+ },
+ {
+  "key": "e170fd7e",
+  "text": "No, he is short and young."
+ },
+ {
+  "key": "b8b8a3b7",
+  "text": "She is a nice friend."
+ },
+ {
+  "key": "ac895ad3",
+  "text": "They are tired."
+ },
+ {
+  "key": "8e2c7aa1",
+  "text": "coffee"
+ },
+ {
+  "key": "b401e629",
+  "text": "tea"
+ },
+ {
+  "key": "49c69a10",
+  "text": "water"
+ },
+ {
+  "key": "888e7aa2",
+  "text": "milk"
+ },
+ {
+  "key": "170b8001",
+  "text": "a cup of"
+ },
+ {
+  "key": "72b9ebf6",
+  "text": "I'd like"
+ },
+ {
+  "key": "dfbaef8c",
+  "text": "how much is it?"
+ },
+ {
+  "key": "76fb7809",
+  "text": "I'd like a coffee, please."
+ },
+ {
+  "key": "656efcfa",
+  "text": "A cup of tea with milk."
+ },
+ {
+  "key": "3d06cfac",
+  "text": "How much is it?"
+ },
+ {
+  "key": "7d3c6e6e",
+  "text": "Hello! What would you like?"
+ },
+ {
+  "key": "9f35043c",
+  "text": "I'd like a tea with milk, please."
+ },
+ {
+  "key": "61645367",
+  "text": "Of course. Anything else?"
+ },
+ {
+  "key": "69ffe4fc",
+  "text": "No, thanks. How much is it?"
+ },
+ {
+  "key": "e59711fc",
+  "text": "I'd like a cup of tea, please."
+ },
+ {
+  "key": "c8647fe5",
+  "text": "bread"
+ },
+ {
+  "key": "a20c85a8",
+  "text": "cheese"
+ },
+ {
+  "key": "f50f4766",
+  "text": "an apple"
+ },
+ {
+  "key": "449d3223",
+  "text": "an egg"
+ },
+ {
+  "key": "f161ff1c",
+  "text": "chicken"
+ },
+ {
+  "key": "afad8963",
+  "text": "fish"
+ },
+ {
+  "key": "9a32f866",
+  "text": "breakfast"
+ },
+ {
+  "key": "2e2b19f6",
+  "text": "I eat an apple every day."
+ },
+ {
+  "key": "4b9f2363",
+  "text": "Bread and cheese, please."
+ },
+ {
+  "key": "a6491a0d",
+  "text": "I like fish and chicken."
+ },
+ {
+  "key": "c58d3cc0",
+  "text": "What do you eat for breakfast?"
+ },
+ {
+  "key": "8b368021",
+  "text": "Bread with cheese and an egg."
+ },
+ {
+  "key": "45d6884a",
+  "text": "And to drink?"
+ },
+ {
+  "key": "1c05fdf6",
+  "text": "A cup of coffee with milk."
+ },
+ {
+  "key": "a8928114",
+  "text": "I eat an egg for breakfast."
+ },
+ {
+  "key": "6facd0ea",
+  "text": "A sandwich with cheese."
+ },
+ {
+  "key": "4a9c9bdf",
+  "text": "table"
+ },
+ {
+  "key": "f1c72f4b",
+  "text": "the menu"
+ },
+ {
+  "key": "77836eb1",
+  "text": "the bill"
+ },
+ {
+  "key": "10f5d87c",
+  "text": "hungry"
+ },
+ {
+  "key": "652f2c70",
+  "text": "thirsty"
+ },
+ {
+  "key": "35dcc586",
+  "text": "delicious"
+ },
+ {
+  "key": "cfe4b637",
+  "text": "can I have…?"
+ },
+ {
+  "key": "0bd22ebf",
+  "text": "A table for two, please."
+ },
+ {
+  "key": "268f33df",
+  "text": "Can I have the bill, please?"
+ },
+ {
+  "key": "0592d745",
+  "text": "I'm very hungry."
+ },
+ {
+  "key": "836e7cc9",
+  "text": "Good evening. A table for two?"
+ },
+ {
+  "key": "43cfceb2",
+  "text": "Yes, please. Can I have the menu?"
+ },
+ {
+  "key": "41201124",
+  "text": "Here you are."
+ },
+ {
+  "key": "669e4d72",
+  "text": "Thank you. The fish looks delicious."
+ },
+ {
+  "key": "12163da9",
+  "text": "Can I have the menu, please?"
+ },
+ {
+  "key": "cc235df0",
+  "text": "We're very hungry."
+ },
+ {
+  "key": "5b98d260",
+  "text": "work"
+ },
+ {
+  "key": "07f017af",
+  "text": "live"
+ },
+ {
+  "key": "6c6e2525",
+  "text": "eat"
+ },
+ {
+  "key": "15743f91",
+  "text": "drink"
+ },
+ {
+  "key": "a2780a89",
+  "text": "speak"
+ },
+ {
+  "key": "7f697715",
+  "text": "learn"
+ },
+ {
+  "key": "4220774b",
+  "text": "go"
+ },
+ {
+  "key": "af410285",
+  "text": "I work in an office."
+ },
+ {
+  "key": "c323406a",
+  "text": "She speaks English."
+ },
+ {
+  "key": "f234d7f8",
+  "text": "We learn every day."
+ },
+ {
+  "key": "b027c10c",
+  "text": "Where do you work?"
+ },
+ {
+  "key": "5d6c710a",
+  "text": "I work in a hospital. And you?"
+ },
+ {
+  "key": "4e68b601",
+  "text": "I work at home."
+ },
+ {
+  "key": "fc7d1353",
+  "text": "Lucky you!"
+ },
+ {
+  "key": "5083cfb8",
+  "text": "I speak Spanish."
+ },
+ {
+  "key": "5c91a646",
+  "text": "She learns Norwegian."
+ },
+ {
+  "key": "3a56e759",
+  "text": "Monday"
+ },
+ {
+  "key": "fe18fbb0",
+  "text": "Tuesday"
+ },
+ {
+  "key": "e8239b77",
+  "text": "Wednesday"
+ },
+ {
+  "key": "99eb4fd7",
+  "text": "Thursday"
+ },
+ {
+  "key": "bc09cf52",
+  "text": "Friday"
+ },
+ {
+  "key": "0e68b936",
+  "text": "Saturday"
+ },
+ {
+  "key": "d0f065f9",
+  "text": "Sunday"
+ },
+ {
+  "key": "420372be",
+  "text": "today"
+ },
+ {
+  "key": "ac3c2a26",
+  "text": "tomorrow"
+ },
+ {
+  "key": "8f0bfe7c",
+  "text": "Today is Monday."
+ },
+ {
+  "key": "557fef14",
+  "text": "See you tomorrow."
+ },
+ {
+  "key": "58b7e3aa",
+  "text": "I go to the gym on Fridays."
+ },
+ {
+  "key": "776bba29",
+  "text": "Are you free on Saturday?"
+ },
+ {
+  "key": "06e9a691",
+  "text": "No, sorry. I work on Saturday."
+ },
+ {
+  "key": "61a12913",
+  "text": "What about Sunday?"
+ },
+ {
+  "key": "b49f33c5",
+  "text": "Sunday is perfect!"
+ },
+ {
+  "key": "2e32688e",
+  "text": "See you on Friday!"
+ },
+ {
+  "key": "03ae1fad",
+  "text": "I don't work on Sundays."
+ },
+ {
+  "key": "0cfb455b",
+  "text": "house"
+ },
+ {
+  "key": "ceeac39a",
+  "text": "flat"
+ },
+ {
+  "key": "33e6572f",
+  "text": "kitchen"
+ },
+ {
+  "key": "16fb7f77",
+  "text": "bedroom"
+ },
+ {
+  "key": "82138fe3",
+  "text": "bathroom"
+ },
+ {
+  "key": "21f5b729",
+  "text": "door"
+ },
+ {
+  "key": "a172b7dd",
+  "text": "window"
+ },
+ {
+  "key": "b8a2da72",
+  "text": "I live in a small flat."
+ },
+ {
+  "key": "6c2420a4",
+  "text": "There is a big kitchen."
+ },
+ {
+  "key": "f1faad88",
+  "text": "There are two bedrooms."
+ },
+ {
+  "key": "9dc1766a",
+  "text": "How many bedrooms are there?"
+ },
+ {
+  "key": "7ac271d7",
+  "text": "Is there a bathroom?"
+ },
+ {
+  "key": "80a65e0e",
+  "text": "Yes, and there's a big kitchen."
+ },
+ {
+  "key": "1539cdda",
+  "text": "There are three bedrooms."
+ },
+ {
+  "key": "0ba3cfd5",
+  "text": "Is there a window?"
+ }
+]

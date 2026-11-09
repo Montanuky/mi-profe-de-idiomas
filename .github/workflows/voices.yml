@@ -1,0 +1,56 @@
+# Graba con voces reales (Piper, gratuitas y de código abierto) todas las palabras
+# y frases del curso: inglés británico y noruego. Guarda los audios en el repositorio
+# y vuelve a fabricar el instalable de Android.
+name: Voces reales
+
+on:
+  push:
+    branches: [main]
+    paths: ['audio/**/manifest.json', 'scripts/synthesize.py']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  grabar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar Piper y ffmpeg
+        run: |
+          pip install piper-tts==1.4.2
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Descargar las voces
+        run: |
+          hf=https://huggingface.co/rhasspy/piper-voices/resolve/main
+          curl -sSfL -o en.onnx      "$hf/en/en_GB/cori/high/en_GB-cori-high.onnx"
+          curl -sSfL -o en.onnx.json "$hf/en/en_GB/cori/high/en_GB-cori-high.onnx.json"
+          curl -sSfL -o no.onnx      "$hf/no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx"
+          curl -sSfL -o no.onnx.json "$hf/no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx.json"
+
+      - name: Grabar inglés británico
+        run: python scripts/synthesize.py en en.onnx 'Piper, voz británica "cori"'
+
+      - name: Grabar noruego
+        run: python scripts/synthesize.py no no.onnx 'Piper, voz noruega "talesyntese"'
+
+      - name: Guardar en el repositorio
+        run: |
+          rm -f *.onnx *.onnx.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets/audio src/content/audioEn.ts src/content/audioNo.ts
+          git diff --cached --quiet && echo 'Sin cambios' || (git commit -m "Audios grabados con voces reales" && git push)
+
+      - name: Fabricar de nuevo el instalable con los audios
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run android-apk.yml --ref main

@@ -1,8 +1,9 @@
-"""Graba con voz noruega (Piper) todos los textos de audio/no/manifest.json.
+"""Graba con una voz real (Piper) todos los textos de audio/<idioma>/manifest.json.
 
-Se ejecuta en GitHub Actions (workflow "Voz noruega"). Genera:
-  assets/audio/no/<clave>.mp3 y <clave>-slow.mp3
-  src/content/audioNo.ts (mapa clave -> archivo)
+Uso: python scripts/synthesize.py <idioma> <modelo.onnx> "<descripción de la voz>"
+Se ejecuta en GitHub Actions (workflow "Voces reales"). Genera:
+  assets/audio/<idioma>/<clave>.mp3 y <clave>-slow.mp3
+  src/content/audio<Idioma>.ts (mapa clave -> archivo)
 """
 import json
 import os
@@ -13,12 +14,15 @@ import wave
 
 from piper import PiperVoice, SynthesisConfig
 
-MODEL = sys.argv[1]
-OUT = 'assets/audio/no'
+LANG = sys.argv[1]
+MODEL = sys.argv[2]
+VOICE = sys.argv[3]
+NAME = 'audio' + LANG.capitalize()
+OUT = f'assets/audio/{LANG}'
 os.makedirs(OUT, exist_ok=True)
 
 voice = PiperVoice.load(MODEL)
-items = json.load(open('audio/no/manifest.json', encoding='utf-8'))
+items = json.load(open(f'audio/{LANG}/manifest.json', encoding='utf-8'))
 keys = {i['key'] for i in items}
 
 # Borra grabaciones de textos que ya no existen
@@ -46,14 +50,14 @@ for n, item in enumerate(items):
 
 lines = [
     '// Archivo generado automáticamente por scripts/synthesize_no.py. No editar a mano.',
-    '// Grabaciones con voz noruega (Piper, voz "talesyntese"), normal y lenta.',
-    'export const audioNo: Record<string, { normal: number; slow: number }> = {',
+    f'// Grabaciones con voz real ({VOICE}), normal y lenta.',
+    f'export const {NAME}: Record<string, {{ normal: number; slow: number }}> = {{',
 ]
 for item in sorted(items, key=lambda i: i['key']):
     k = item['key']
     lines.append(
-        f"  '{k}': {{ normal: require('../../assets/audio/no/{k}.mp3'), slow: require('../../assets/audio/no/{k}-slow.mp3') }},"
+        f"  '{k}': {{ normal: require('../../assets/audio/{LANG}/{k}.mp3'), slow: require('../../assets/audio/{LANG}/{k}-slow.mp3') }},"
     )
 lines.append('};')
-open('src/content/audioNo.ts', 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
-print('audioNo.ts actualizado')
+open(f'src/content/{NAME}.ts', 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+print(f'{NAME}.ts actualizado')

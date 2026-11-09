@@ -39,7 +39,7 @@ Si en tu móvil no suena el noruego, instala la voz noruega en los ajustes del t
 
 - **React Native + Expo (SDK 58)** con **Expo Router**: un único código para Android e iPhone.
 - **AsyncStorage**: el progreso se guarda en el teléfono, sin servidores ni cuentas.
-- **expo-speech**: audio con la voz del propio teléfono (gratis y sin conexión).
+- **Voces reales grabadas** con Piper (gratis, código abierto): británica "cori" y noruega "talesyntese", generadas por el workflow "Voces reales". Si falta una grabación se usa la voz del teléfono (expo-speech).
 - TypeScript.
 
 ### Estructura
