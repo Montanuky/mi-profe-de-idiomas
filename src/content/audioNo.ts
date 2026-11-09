@@ -1,5 +1,5 @@
 // Archivo generado automáticamente por scripts/synthesize_no.py. No editar a mano.
-// Grabaciones con voz noruega (Piper, voz "talesyntese"), normal y lenta.
+// Grabaciones con voz real (Piper, voz noruega "talesyntese"), normal y lenta.
 export const audioNo: Record<string, { normal: number; slow: number }> = {
   '00b4d434': { normal: require('../../assets/audio/no/00b4d434.mp3'), slow: require('../../assets/audio/no/00b4d434-slow.mp3') },
   '02770a5d': { normal: require('../../assets/audio/no/02770a5d.mp3'), slow: require('../../assets/audio/no/02770a5d-slow.mp3') },
