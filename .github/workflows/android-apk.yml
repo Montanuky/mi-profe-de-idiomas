@@ -1,0 +1,51 @@
+# Fabrica el instalable de Android (.apk) cada vez que se sube código a main
+# y lo publica en la página "Releases" del repositorio.
+name: Instalable Android
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Comprobar código y contenido
+        run: |
+          npx tsc --noEmit
+          npx -y tsx scripts/check-content.ts
+
+      - name: Generar proyecto Android
+        run: npx expo prebuild --platform android --no-install
+
+      - name: Compilar APK
+        working-directory: android
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Publicar APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: Mi profe de idiomas 1.0.${{ github.run_number }}
+          body: Descarga el archivo .apk desde el móvil Android e instálalo.
+          files: android/app/build/outputs/apk/release/app-release.apk
+          make_latest: true
