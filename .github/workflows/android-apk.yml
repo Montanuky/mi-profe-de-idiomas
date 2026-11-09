@@ -39,7 +39,7 @@ jobs:
 
       - name: Compilar APK
         working-directory: android
-        run: ./gradlew assembleRelease --no-daemon
+        run: ./gradlew assembleRelease --no-daemon -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
 
       - name: Publicar APK
         uses: softprops/action-gh-release@v2
