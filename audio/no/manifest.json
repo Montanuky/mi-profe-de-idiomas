@@ -1,0 +1,802 @@
+[
+ {
+  "key": "64375baf",
+  "text": "Hei! Hyggelig å møte deg."
+ },
+ {
+  "key": "0fb4b80d",
+  "text": "hei"
+ },
+ {
+  "key": "19ccce7f",
+  "text": "god morgen"
+ },
+ {
+  "key": "63195b3d",
+  "text": "god dag"
+ },
+ {
+  "key": "72ff7c41",
+  "text": "god kveld"
+ },
+ {
+  "key": "7df22117",
+  "text": "ha det"
+ },
+ {
+  "key": "de1aaa95",
+  "text": "vi ses"
+ },
+ {
+  "key": "1433a014",
+  "text": "takk"
+ },
+ {
+  "key": "e6bf0c01",
+  "text": "tusen takk"
+ },
+ {
+  "key": "b0062b87",
+  "text": "God morgen, Ola."
+ },
+ {
+  "key": "d85ece80",
+  "text": "Tusen takk!"
+ },
+ {
+  "key": "1b284974",
+  "text": "Ha det bra, Kari!"
+ },
+ {
+  "key": "65aa3964",
+  "text": "Hei!"
+ },
+ {
+  "key": "07568ef2",
+  "text": "Hei! Hvordan har du det?"
+ },
+ {
+  "key": "9d4f94ed",
+  "text": "Bra, takk. Og du?"
+ },
+ {
+  "key": "98eaa19e",
+  "text": "Bare bra, takk!"
+ },
+ {
+  "key": "d2126620",
+  "text": "Hei, Ola!"
+ },
+ {
+  "key": "eef415b7",
+  "text": "Ha det bra!"
+ },
+ {
+  "key": "b2000c94",
+  "text": "navn"
+ },
+ {
+  "key": "74c7ce43",
+  "text": "jeg heter"
+ },
+ {
+  "key": "cb35a7b8",
+  "text": "hva heter du?"
+ },
+ {
+  "key": "3efe4830",
+  "text": "hyggelig å møte deg"
+ },
+ {
+  "key": "6df2533c",
+  "text": "jeg er"
+ },
+ {
+  "key": "63c4a0a1",
+  "text": "du er"
+ },
+ {
+  "key": "6c3f7a14",
+  "text": "ja"
+ },
+ {
+  "key": "3299a5cf",
+  "text": "nei"
+ },
+ {
+  "key": "32c6ee49",
+  "text": "unnskyld"
+ },
+ {
+  "key": "ce31d037",
+  "text": "Jeg heter Guille."
+ },
+ {
+  "key": "d578d6d0",
+  "text": "Jeg er fra Barcelona."
+ },
+ {
+  "key": "179678f5",
+  "text": "Hyggelig å møte deg, Kari."
+ },
+ {
+  "key": "a782c62b",
+  "text": "Hei! Hva heter du?"
+ },
+ {
+  "key": "94880354",
+  "text": "Jeg heter Kari. Og du?"
+ },
+ {
+  "key": "ba60e9b0",
+  "text": "Hyggelig å møte deg, Guille."
+ },
+ {
+  "key": "b030d438",
+  "text": "Jeg er Guille."
+ },
+ {
+  "key": "7c98e4a5",
+  "text": "Hun er trøtt."
+ },
+ {
+  "key": "92862f7b",
+  "text": "Spania"
+ },
+ {
+  "key": "6c8db5b8",
+  "text": "Norge"
+ },
+ {
+  "key": "a2a8f2aa",
+  "text": "England"
+ },
+ {
+  "key": "224bac67",
+  "text": "spansk"
+ },
+ {
+  "key": "f5ebebee",
+  "text": "norsk"
+ },
+ {
+  "key": "e9ef2112",
+  "text": "hvor"
+ },
+ {
+  "key": "bbd7c4b0",
+  "text": "fra"
+ },
+ {
+  "key": "f931a521",
+  "text": "jeg bor i"
+ },
+ {
+  "key": "2aaacd66",
+  "text": "Jeg bor i Oslo."
+ },
+ {
+  "key": "6f843cf4",
+  "text": "Hvor kommer du fra?"
+ },
+ {
+  "key": "5925fa93",
+  "text": "Jeg kommer fra Spania."
+ },
+ {
+  "key": "a2795ccf",
+  "text": "Jeg kommer fra Spania. Og du?"
+ },
+ {
+  "key": "d0c6ebb2",
+  "text": "Jeg er norsk. Jeg bor i Bergen."
+ },
+ {
+  "key": "d7746626",
+  "text": "Så fint! Jeg elsker Norge."
+ },
+ {
+  "key": "3c760fd0",
+  "text": "Jeg snakker spansk og litt norsk."
+ },
+ {
+  "key": "4148a64d",
+  "text": "Hvor bor du?"
+ },
+ {
+  "key": "af855394",
+  "text": "familie"
+ },
+ {
+  "key": "d59e62c5",
+  "text": "mor"
+ },
+ {
+  "key": "bcf819ee",
+  "text": "far"
+ },
+ {
+  "key": "6877e9d4",
+  "text": "bror"
+ },
+ {
+  "key": "fe152482",
+  "text": "søster"
+ },
+ {
+  "key": "fc9426ca",
+  "text": "sønn"
+ },
+ {
+  "key": "7d5f7a81",
+  "text": "datter"
+ },
+ {
+  "key": "b1e7b99e",
+  "text": "foreldre"
+ },
+ {
+  "key": "22db4a3e",
+  "text": "Dette er søsteren min."
+ },
+ {
+  "key": "7d54dd26",
+  "text": "Foreldrene mine bor i Spania."
+ },
+ {
+  "key": "ade711b3",
+  "text": "Broren hans er høy."
+ },
+ {
+  "key": "655856d3",
+  "text": "Hvem er dette?"
+ },
+ {
+  "key": "090d89fd",
+  "text": "Dette er broren min. Han er tjue år."
+ },
+ {
+  "key": "3e6ce54c",
+  "text": "Og hvem er hun?"
+ },
+ {
+  "key": "0f8dd704",
+  "text": "Hun er moren min."
+ },
+ {
+  "key": "36d97764",
+  "text": "Dette er faren min."
+ },
+ {
+  "key": "43994e27",
+  "text": "Søsteren hennes bor i Oslo."
+ },
+ {
+  "key": "411a658a",
+  "text": "en"
+ },
+ {
+  "key": "42454824",
+  "text": "to"
+ },
+ {
+  "key": "981d9092",
+  "text": "tre"
+ },
+ {
+  "key": "8eab16d9",
+  "text": "fire"
+ },
+ {
+  "key": "c802b89b",
+  "text": "fem"
+ },
+ {
+  "key": "6f687fbb",
+  "text": "seks"
+ },
+ {
+  "key": "d5295d37",
+  "text": "sju"
+ },
+ {
+  "key": "1e753c47",
+  "text": "åtte"
+ },
+ {
+  "key": "5c366688",
+  "text": "ni"
+ },
+ {
+  "key": "404544fe",
+  "text": "ti"
+ },
+ {
+  "key": "c000d880",
+  "text": "Hvor gammel er du?"
+ },
+ {
+  "key": "9cfee1a2",
+  "text": "Jeg har to søstre."
+ },
+ {
+  "key": "80fe5627",
+  "text": "Sønnen min er fem år."
+ },
+ {
+  "key": "84db0259",
+  "text": "Hvor gammel er datteren din?"
+ },
+ {
+  "key": "860d4d53",
+  "text": "Hun er sju. Og sønnen din?"
+ },
+ {
+  "key": "b6b1d096",
+  "text": "Han er ni."
+ },
+ {
+  "key": "90e5b270",
+  "text": "De er nesten like gamle!"
+ },
+ {
+  "key": "6e5e6d6c",
+  "text": "Jeg er ti år."
+ },
+ {
+  "key": "fe1748d0",
+  "text": "venn"
+ },
+ {
+  "key": "fce97e4c",
+  "text": "høy"
+ },
+ {
+  "key": "4e607378",
+  "text": "lav"
+ },
+ {
+  "key": "59d4ae07",
+  "text": "ung"
+ },
+ {
+  "key": "36a0c196",
+  "text": "gammel"
+ },
+ {
+  "key": "695ab86b",
+  "text": "glad"
+ },
+ {
+  "key": "88f0f861",
+  "text": "trøtt"
+ },
+ {
+  "key": "f9216c15",
+  "text": "hyggelig"
+ },
+ {
+  "key": "f9f93c26",
+  "text": "Vennen min er veldig høy."
+ },
+ {
+  "key": "7bc0d701",
+  "text": "Jeg er trøtt i dag."
+ },
+ {
+  "key": "8d349ccc",
+  "text": "Hun er en glad jente."
+ },
+ {
+  "key": "02aa701c",
+  "text": "Er vennen din Ola hyggelig?"
+ },
+ {
+  "key": "540a16a5",
+  "text": "Ja, han er veldig hyggelig."
+ },
+ {
+  "key": "21590163",
+  "text": "Er han høy?"
+ },
+ {
+  "key": "b1e95596",
+  "text": "Nei, han er lav og ung."
+ },
+ {
+  "key": "88ab6b37",
+  "text": "Hun er en hyggelig venn."
+ },
+ {
+  "key": "05e62818",
+  "text": "De er trøtte."
+ },
+ {
+  "key": "ed194f04",
+  "text": "kaffe"
+ },
+ {
+  "key": "3c453eb2",
+  "text": "te"
+ },
+ {
+  "key": "29c9cf24",
+  "text": "vann"
+ },
+ {
+  "key": "9beaf08e",
+  "text": "melk"
+ },
+ {
+  "key": "1367c4a0",
+  "text": "en kopp"
+ },
+ {
+  "key": "462602a0",
+  "text": "jeg vil gjerne ha"
+ },
+ {
+  "key": "33a77cae",
+  "text": "hva koster det?"
+ },
+ {
+  "key": "7f30cf52",
+  "text": "Jeg vil gjerne ha en kaffe."
+ },
+ {
+  "key": "02a5db89",
+  "text": "En kopp te med melk, takk."
+ },
+ {
+  "key": "fb8878ce",
+  "text": "Hva koster det?"
+ },
+ {
+  "key": "d5d6b8b9",
+  "text": "Hei! Hva vil du ha?"
+ },
+ {
+  "key": "1b37f507",
+  "text": "Jeg vil gjerne ha en te med melk."
+ },
+ {
+  "key": "7d525e8d",
+  "text": "Ja. Noe mer?"
+ },
+ {
+  "key": "52c099f3",
+  "text": "Nei takk. Hva koster det?"
+ },
+ {
+  "key": "0b1911d8",
+  "text": "Jeg vil gjerne ha en kopp te."
+ },
+ {
+  "key": "8cd1e23b",
+  "text": "Kan jeg få et glass vann?"
+ },
+ {
+  "key": "4e309f14",
+  "text": "et brød"
+ },
+ {
+  "key": "90fc270c",
+  "text": "en ost"
+ },
+ {
+  "key": "4fe0670e",
+  "text": "et eple"
+ },
+ {
+  "key": "b3a15a71",
+  "text": "et egg"
+ },
+ {
+  "key": "9397ac17",
+  "text": "kylling"
+ },
+ {
+  "key": "b0ad8af6",
+  "text": "fisk"
+ },
+ {
+  "key": "1dd72bf3",
+  "text": "frokost"
+ },
+ {
+  "key": "33b2e52b",
+  "text": "Jeg spiser et eple hver dag."
+ },
+ {
+  "key": "77af9248",
+  "text": "Brød og ost, takk."
+ },
+ {
+  "key": "60846191",
+  "text": "Jeg liker fisk og kylling."
+ },
+ {
+  "key": "f0a463f5",
+  "text": "Hva spiser du til frokost?"
+ },
+ {
+  "key": "ff9ca17f",
+  "text": "Brød med ost og et egg."
+ },
+ {
+  "key": "25a7ee3f",
+  "text": "Og å drikke?"
+ },
+ {
+  "key": "e78e8ff6",
+  "text": "En kopp kaffe med melk."
+ },
+ {
+  "key": "3ea32231",
+  "text": "Jeg spiser et egg."
+ },
+ {
+  "key": "6b24938b",
+  "text": "Hun kjøper en ost."
+ },
+ {
+  "key": "0d63b081",
+  "text": "et bord"
+ },
+ {
+  "key": "3f990765",
+  "text": "menyen"
+ },
+ {
+  "key": "9a4a6a00",
+  "text": "regningen"
+ },
+ {
+  "key": "c5b56632",
+  "text": "sulten"
+ },
+ {
+  "key": "41ca5e4e",
+  "text": "tørst"
+ },
+ {
+  "key": "03c54581",
+  "text": "nydelig"
+ },
+ {
+  "key": "b148bc8f",
+  "text": "kan jeg få…?"
+ },
+ {
+  "key": "171c013e",
+  "text": "Et bord til to, takk."
+ },
+ {
+  "key": "e0a4e5c8",
+  "text": "Kan jeg få regningen?"
+ },
+ {
+  "key": "09a3eb4e",
+  "text": "Jeg er veldig sulten."
+ },
+ {
+  "key": "3379f724",
+  "text": "God kveld. Et bord til to?"
+ },
+ {
+  "key": "d2e0577f",
+  "text": "Ja, takk. Kan jeg få menyen?"
+ },
+ {
+  "key": "23617575",
+  "text": "Vær så god."
+ },
+ {
+  "key": "2e707673",
+  "text": "Takk. Fisken ser nydelig ut."
+ },
+ {
+  "key": "cb15a8e9",
+  "text": "Kan jeg få menyen?"
+ },
+ {
+  "key": "526342a5",
+  "text": "Bordet er ledig."
+ },
+ {
+  "key": "1344bfed",
+  "text": "jobbe"
+ },
+ {
+  "key": "422bb03e",
+  "text": "bo"
+ },
+ {
+  "key": "cc13b76d",
+  "text": "spise"
+ },
+ {
+  "key": "e90d3c5b",
+  "text": "drikke"
+ },
+ {
+  "key": "2a0e8af0",
+  "text": "snakke"
+ },
+ {
+  "key": "3e2a046e",
+  "text": "lære"
+ },
+ {
+  "key": "bc213759",
+  "text": "gå"
+ },
+ {
+  "key": "a8b89686",
+  "text": "Jeg jobber på et kontor."
+ },
+ {
+  "key": "e8a92ac2",
+  "text": "Hun snakker norsk."
+ },
+ {
+  "key": "baf6fcb6",
+  "text": "Vi lærer hver dag."
+ },
+ {
+  "key": "eca24aca",
+  "text": "Hvor jobber du?"
+ },
+ {
+  "key": "5c207663",
+  "text": "Jeg jobber på et sykehus. Og du?"
+ },
+ {
+  "key": "256e44cb",
+  "text": "Jeg jobber hjemme."
+ },
+ {
+  "key": "b3003815",
+  "text": "Så heldig du er!"
+ },
+ {
+  "key": "7133f278",
+  "text": "Jeg snakker spansk."
+ },
+ {
+  "key": "1b43a7a2",
+  "text": "Hun lærer engelsk."
+ },
+ {
+  "key": "b9a643d5",
+  "text": "mandag"
+ },
+ {
+  "key": "e3f1e173",
+  "text": "tirsdag"
+ },
+ {
+  "key": "fb005aef",
+  "text": "onsdag"
+ },
+ {
+  "key": "9ec3cd31",
+  "text": "torsdag"
+ },
+ {
+  "key": "b2246884",
+  "text": "fredag"
+ },
+ {
+  "key": "77b9fc87",
+  "text": "lørdag"
+ },
+ {
+  "key": "c7c219d0",
+  "text": "søndag"
+ },
+ {
+  "key": "a7147314",
+  "text": "i dag"
+ },
+ {
+  "key": "9b0452d0",
+  "text": "i morgen"
+ },
+ {
+  "key": "a2182988",
+  "text": "I dag er det mandag."
+ },
+ {
+  "key": "00b4d434",
+  "text": "Vi ses i morgen."
+ },
+ {
+  "key": "4420a1cd",
+  "text": "På fredag går jeg på trening."
+ },
+ {
+  "key": "f6cc5874",
+  "text": "Er du ledig på lørdag?"
+ },
+ {
+  "key": "95ed0dd1",
+  "text": "Nei, beklager. Jeg jobber på lørdag."
+ },
+ {
+  "key": "2fabaa9a",
+  "text": "Hva med søndag?"
+ },
+ {
+  "key": "0349109e",
+  "text": "Søndag passer perfekt!"
+ },
+ {
+  "key": "7f8fb782",
+  "text": "På lørdag spiser vi fisk."
+ },
+ {
+  "key": "c4f02f83",
+  "text": "I morgen er det fredag."
+ },
+ {
+  "key": "5c1c2da0",
+  "text": "et hus"
+ },
+ {
+  "key": "c66ce4f9",
+  "text": "en leilighet"
+ },
+ {
+  "key": "ffe9ac92",
+  "text": "et kjøkken"
+ },
+ {
+  "key": "c980a4d7",
+  "text": "et soverom"
+ },
+ {
+  "key": "f3c0b387",
+  "text": "et bad"
+ },
+ {
+  "key": "63aa6f10",
+  "text": "en dør"
+ },
+ {
+  "key": "e95ea266",
+  "text": "et vindu"
+ },
+ {
+  "key": "02770a5d",
+  "text": "Jeg bor i en liten leilighet."
+ },
+ {
+  "key": "9c9fa45c",
+  "text": "Det er et stort kjøkken."
+ },
+ {
+  "key": "816dbf19",
+  "text": "Det er to soverom."
+ },
+ {
+  "key": "5980a592",
+  "text": "Hvor mange soverom er det?"
+ },
+ {
+  "key": "6c447c34",
+  "text": "Er det et bad?"
+ },
+ {
+  "key": "ac03aedf",
+  "text": "Ja, og det er et stort kjøkken."
+ },
+ {
+  "key": "b3644929",
+  "text": "Det er tre soverom i huset."
+ },
+ {
+  "key": "aba97e6f",
+  "text": "Er det et vindu?"
+ }
+]

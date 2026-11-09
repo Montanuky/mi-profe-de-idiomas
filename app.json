@@ -31,7 +31,8 @@
             "web": false
           }
         }
-      ]
+      ],
+      "expo-audio"
     ],
     "scheme": "miprofe"
   }

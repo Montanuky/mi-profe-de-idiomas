@@ -1,4 +1,5 @@
-// Audio en la versión web: usa directamente la voz del navegador.
+// Audio en la versión web: grabaciones en noruego si existen; si no, la voz del navegador.
+import { clipFor, playClip, stopClip } from './clips';
 // Elige una voz del idioma correcto y evita el fallo de Chrome en Android
 // que se "traga" la frase si se cancela y se habla en el mismo instante.
 
@@ -41,6 +42,14 @@ function utter(text: string, language: string, slow: boolean, onEnd?: () => void
 }
 
 export function speak(text: string, language: string, slow = false) {
+  const clip = clipFor(text, language, slow);
+  if (clip) {
+    try {
+      synth?.cancel();
+    } catch {}
+    return playClip(clip);
+  }
+  stopClip();
   if (!synth) return;
   try {
     const wasBusy = synth.speaking || synth.pending;
@@ -66,12 +75,15 @@ export async function hasVoice(language: string): Promise<boolean | null> {
 }
 
 export function speakSequence(texts: string[], language: string, slow = false) {
-  if (!synth) return;
+  stopClip();
   try {
-    synth.cancel();
+    synth?.cancel();
     const run = (i: number) => {
       if (i >= texts.length) return;
-      synth.speak(utter(texts[i], language, slow, () => setTimeout(() => run(i + 1), 400)));
+      const next = () => setTimeout(() => run(i + 1), 400);
+      const clip = clipFor(texts[i], language, slow);
+      if (clip) playClip(clip, next);
+      else synth?.speak(utter(texts[i], language, slow, next));
     };
     setTimeout(() => run(0), 80);
   } catch {}
