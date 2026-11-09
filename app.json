@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "idiomas",
-    "slug": "idiomas",
+    "name": "Mi profe de idiomas",
+    "slug": "mi-profe-de-idiomas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.montanuky.miprofe"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,10 +17,15 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.montanuky.miprofe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "miprofe"
   }
 }
