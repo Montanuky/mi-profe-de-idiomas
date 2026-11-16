@@ -5,6 +5,7 @@ name: Instalable Android
 on:
   push:
     branches: [main]
+    paths-ignore: ['scripts/check_audio.py', '.github/workflows/check-audio.yml', 'README.md']
   workflow_dispatch:
 
 permissions:
