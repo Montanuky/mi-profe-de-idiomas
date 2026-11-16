@@ -44,6 +44,15 @@ LEXICON = {
         'far': 'fˈɑːr',
         'bad': 'bˈɑːd',
         'dag': 'dˈɑːɡ',
+        # En los días de la semana la "g" final no suena
+        'mandag': 'mˈɑnnɑ',
+        'tirsdag': 'tˈiːʃdɑ',
+        'onsdag': 'ˈʊnsdɑ',
+        'torsdag': 'tˈoːʃdɑ',
+        'fredag': 'frˈeːdɑ',
+        'lørdag': 'lˈøːrdɑ',
+        'søndag': 'sˈœnnɑ',
+        'oslo': 'ˈʊʃlʊ',
     },
     'en': {},
 }
